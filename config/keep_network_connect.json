@@ -1,0 +1,5 @@
+{
+    "check_per_second": 300, 
+    "start_process": "./data/Auto_login.exe",
+    "check_max_line": 1800
+}

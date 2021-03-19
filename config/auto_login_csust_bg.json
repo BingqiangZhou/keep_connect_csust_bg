@@ -1,0 +1,5 @@
+{
+    "keep_connect": true,
+    "check_per_second": 300,
+    "account_infos_file": "./data/accounts.json"
+}

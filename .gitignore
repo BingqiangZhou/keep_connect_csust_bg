@@ -1,0 +1,14 @@
+
+.vscode/
+
+__pycache__/
+
+account*
+
+.DS_Store
+
+out.log
+
+scan_csust_bg_accounts.py
+
+*.exe
