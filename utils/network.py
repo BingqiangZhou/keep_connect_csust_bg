@@ -37,9 +37,12 @@ user_agent = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535
 def check_internet_connected():
     try:
         result = ping('baidu.com', timeout=0.1)
-        if "Request timed out" in str(result):
-            return False
-        return True
+        # if "Request timed out" in str(result):
+            # return False
+        # return True
+        if "Reply from" in str(result):
+            return True
+        return False
     except:
         return False
 
